@@ -6,7 +6,7 @@ import java.net.Socket;
 
 public class TcpClient {
     private static final String END_POINT = "127.0.0.1";
-    private static final int PORT = 54001;
+    private static final int PORT =  54001;
 
     public static void sendUploadedImageToServer(String imageAbsPath){
         try {
